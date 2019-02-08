@@ -13,6 +13,5 @@ class EmailParser
     emails_array = []
     emails_array = @email_list.split(/, | /).uniq
     emails_array
-    binding.pry
   end
 end
